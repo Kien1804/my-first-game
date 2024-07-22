@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "940752527195",
+    "project_id": "pixel-adventure-bb141",
+    "storage_bucket": "pixel-adventure-bb141.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:940752527195:android:ee3e00212e56d82b7dc47e",
+        "android_client_info": {
+          "package_name": "com.example.pixel_adventure"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDufpEik2vsh7xVWFRDEU2as2oDHMkQ3FA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

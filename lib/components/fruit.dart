@@ -2,6 +2,7 @@ import 'dart:async';
 
 import 'package:flame/collisions.dart';
 import 'package:flame/components.dart';
+import 'package:flame_audio/flame_audio.dart';
 import 'package:pixel_adventure/components/custom_hitbox.dart';
 import 'package:pixel_adventure/pixel_adventure.dart';
 
@@ -26,6 +27,7 @@ class Fruit extends SpriteAnimationComponent
     width: 12,
     height: 12,
   );
+  bool collected = false;
 
   @override
   FutureOr<void> onLoad() {
@@ -50,8 +52,12 @@ class Fruit extends SpriteAnimationComponent
     return super.onLoad();
   }
 
-  void collidedWithPlayer() {
+  void collidedWithPlayer() async {
     if (!_collected) {
+      collected = true;
+      if (game.playSounds) {
+        FlameAudio.play('collect_fruit.wav', volume: game.soundVolume);
+      }
       animation = SpriteAnimation.fromFrameData(
         game.images.fromCache('Items/Fruits/Collected.png'),
         SpriteAnimationData.sequenced(
@@ -61,11 +67,13 @@ class Fruit extends SpriteAnimationComponent
           loop: false,
         ),
       );
-      _collected = true;
+
+      await animationTicker?.completed;
+      removeFromParent();
     }
-    Future.delayed(
-      const Duration(milliseconds: 400),
-      () => removeFromParent(),
-    );
+    // Future.delayed(
+    //   const Duration(milliseconds: 400),
+    //   () => removeFromParent(),
+    // );
   }
 }

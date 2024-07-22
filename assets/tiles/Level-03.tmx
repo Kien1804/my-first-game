@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="40" height="23" tilewidth="16" tileheight="16" infinite="0" nextlayerid="4" nextobjectid="93">
+ <tileset firstgid="1" source="Pixel Adventure.tsx"/>
+ <layer id="1" name="Background" width="40" height="23">
+  <properties>
+   <property name="BackgroundColor" value="Blue"/>
+  </properties>
+  <data encoding="csv">
+24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,
+24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,
+24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,
+24,24,24,4,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,46,5,24,24,24,
+24,24,24,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,23,24,24,24,
+24,24,24,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,23,24,24,24,
+24,24,24,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,23,24,24,24,
+24,24,24,25,71,71,71,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,23,24,24,24,
+24,24,24,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,23,24,24,24,
+24,24,24,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,23,24,24,24,
+24,24,24,25,106,107,107,107,107,108,144,144,144,143,101,103,164,143,143,143,101,103,164,164,0,0,101,103,144,144,106,107,107,107,107,108,23,24,24,24,
+24,24,24,25,128,129,129,129,129,130,144,144,144,0,0,0,0,0,0,0,143,143,143,0,0,0,0,144,144,144,128,129,129,129,129,130,23,24,24,24,
+24,24,24,25,128,129,129,129,129,130,144,144,144,0,0,0,0,0,0,0,0,71,71,71,71,0,0,144,144,144,128,129,129,129,129,130,23,24,24,24,
+24,24,24,25,128,129,129,129,129,130,144,144,144,0,0,0,0,0,0,0,0,0,0,0,0,0,0,144,144,144,128,129,129,129,129,130,23,24,24,24,
+24,24,24,25,128,129,129,129,129,130,144,144,144,0,0,0,0,0,0,0,0,71,0,0,0,0,0,144,144,144,128,129,129,129,129,130,23,24,24,24,
+24,24,24,25,128,129,129,129,129,130,144,144,144,0,0,0,0,0,0,0,0,0,0,0,0,0,0,144,144,144,128,129,129,129,129,130,23,24,24,24,
+24,24,24,25,128,129,129,129,129,130,144,144,144,0,0,0,0,0,0,0,0,0,0,0,0,0,0,144,144,144,128,129,129,129,129,130,23,24,24,24,
+24,24,24,25,128,129,129,129,129,130,144,144,144,0,0,0,0,0,0,0,0,0,0,0,0,0,0,144,144,144,128,129,129,129,129,130,23,24,24,24,
+24,24,24,25,150,129,129,129,129,152,144,144,144,0,0,0,0,0,0,0,0,0,0,0,0,0,0,144,144,144,150,151,151,151,151,152,23,24,24,24,
+24,24,24,26,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,27,24,24,24,
+24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,
+24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,
+24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24
+</data>
+ </layer>
+ <objectgroup id="2" name="Spawnpoints">
+  <object id="15" name="Player" type="Player" x="96" y="112" width="32" height="32"/>
+  <object id="40" name="Bananas" type="Fruit" x="224" y="128" width="32" height="32"/>
+  <object id="54" name="Saw" type="Saw" x="272" y="128" width="32" height="32">
+   <properties>
+    <property name="isVertical" type="bool" value="true"/>
+    <property name="offNeg" type="float" value="4"/>
+    <property name="offPos" type="float" value="3"/>
+   </properties>
+  </object>
+  <object id="56" type="Checkpoint" x="496" y="96" width="64" height="64"/>
+  <object id="63" name="Chicken" type="Chicken" x="240" y="272" width="32" height="32">
+   <properties>
+    <property name="offNeg" type="float" value="12"/>
+    <property name="offPos" type="float" value="5"/>
+   </properties>
+  </object>
+  <object id="64" name="Chicken" type="Chicken" x="304" y="272" width="32" height="32">
+   <properties>
+    <property name="offNeg" type="float" value="12"/>
+    <property name="offPos" type="float" value="5"/>
+   </properties>
+  </object>
+  <object id="65" name="Chicken" type="Chicken" x="368" y="272" width="32" height="32">
+   <properties>
+    <property name="offNeg" type="float" value="12"/>
+    <property name="offPos" type="float" value="5"/>
+   </properties>
+  </object>
+  <object id="66" name="Chicken" type="Chicken" x="176" y="272" width="32" height="32">
+   <properties>
+    <property name="offNeg" type="float" value="12"/>
+    <property name="offPos" type="float" value="5"/>
+   </properties>
+  </object>
+  <object id="67" name="Chicken" type="Chicken" x="432" y="272" width="32" height="32">
+   <properties>
+    <property name="offNeg" type="float" value="12"/>
+    <property name="offPos" type="float" value="5"/>
+   </properties>
+  </object>
+  <object id="72" name="Bananas" type="Fruit" x="416" y="128" width="32" height="32"/>
+  <object id="73" name="Bananas" type="Fruit" x="320" y="128" width="32" height="32"/>
+  <object id="74" name="Saw" type="Saw" x="368" y="128" width="32" height="32">
+   <properties>
+    <property name="isVertical" type="bool" value="true"/>
+    <property name="offNeg" type="float" value="4"/>
+    <property name="offPos" type="float" value="3"/>
+   </properties>
+  </object>
+  <object id="75" name="Saw" type="Saw" x="176" y="128" width="32" height="32">
+   <properties>
+    <property name="isVertical" type="bool" value="true"/>
+    <property name="offNeg" type="float" value="4"/>
+    <property name="offPos" type="float" value="3"/>
+   </properties>
+  </object>
+  <object id="92" type="Saw" x="304" y="32" width="32" height="32">
+   <properties>
+    <property name="isVertical" type="bool" value="false"/>
+    <property name="offNeg" type="float" value="16"/>
+    <property name="offPos" type="float" value="16"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="3" name="Collisions">
+  <object id="21" x="48" y="48" width="16" height="272"/>
+  <object id="22" x="64" y="48" width="528" height="16"/>
+  <object id="23" x="576" y="64" width="16" height="256"/>
+  <object id="24" x="64" y="304" width="512" height="16"/>
+  <object id="26" x="64" y="160" width="96" height="144"/>
+  <object id="29" x="224" y="160" width="32" height="16"/>
+  <object id="34" type="Platform" x="320" y="160" width="32" height="16"/>
+  <object id="36" type="Platform" x="416" y="160" width="32" height="16"/>
+  <object id="60" x="480" y="160" width="96" height="144"/>
+ </objectgroup>
+</map>

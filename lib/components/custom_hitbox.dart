@@ -9,5 +9,5 @@ class CustomHitbox {
     required this.offsetY,
     required this.width,
     required this.height,
-});
+  });
 }

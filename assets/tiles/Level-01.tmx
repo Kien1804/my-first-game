@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="40" height="23" tilewidth="16" tileheight="16" infinite="0" nextlayerid="4" nextobjectid="61">
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="40" height="23" tilewidth="16" tileheight="16" infinite="0" nextlayerid="4" nextobjectid="64">
  <tileset firstgid="1" source="Pixel Adventure.tsx"/>
  <layer id="1" name="Background" width="40" height="23">
   <properties>
@@ -44,14 +44,7 @@
   <object id="48" name="Cherries" type="Fruit" x="352" y="128" width="32" height="32"/>
   <object id="49" name="Kiwi" type="Fruit" x="480" y="128" width="32" height="32"/>
   <object id="50" name="Kiwi" type="Fruit" x="480" y="176" width="32" height="32"/>
-  <object id="53" type="Saw" x="288" y="288" width="32" height="32">
-   <properties>
-    <property name="isVertical" type="bool" value="false"/>
-    <property name="offNeg" type="float" value="8"/>
-    <property name="offPos" type="float" value="7"/>
-   </properties>
-  </object>
-  <object id="54" type="Saw" x="288" y="128" width="32" height="32">
+  <object id="54" name="Saw" type="Saw" x="288" y="128" width="32" height="32">
    <properties>
     <property name="isVertical" type="bool" value="true"/>
     <property name="offNeg" type="float" value="4"/>
@@ -59,6 +52,12 @@
    </properties>
   </object>
   <object id="56" type="Checkpoint" x="512" y="144" width="64" height="64"/>
+  <object id="63" name="Chicken" type="Chicken" x="336" y="272" width="32" height="32">
+   <properties>
+    <property name="offNeg" type="float" value="12"/>
+    <property name="offPos" type="float" value="5"/>
+   </properties>
+  </object>
  </objectgroup>
  <objectgroup id="3" name="Collisions">
   <object id="21" x="48" y="48" width="16" height="272"/>
@@ -70,9 +69,7 @@
   <object id="27" x="432" y="256" width="96" height="48"/>
   <object id="28" x="336" y="192" width="64" height="16"/>
   <object id="29" x="192" y="160" width="64" height="16"/>
-  <object id="30" x="480" y="208" width="48" height="16"/>
-  <object id="34" type="Platform" x="480" y="208" width="48" height="16"/>
-  <object id="35" type="Platform" x="464" y="208" width="64" height="16"/>
+  <object id="34" type="Platform" x="464" y="208" width="64" height="16"/>
   <object id="36" type="Platform" x="464" y="160" width="64" height="16"/>
   <object id="37" type="Platform" x="64" y="160" width="48" height="16"/>
   <object id="38" type="Platform" x="64" y="208" width="48" height="16" rotation="1.28385"/>
